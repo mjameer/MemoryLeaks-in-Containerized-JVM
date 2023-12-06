@@ -1,12 +1,14 @@
 # MemoryLeaks-in-Containerized-JVM
 
+![image](https://github.com/mjameer/MemoryLeaks-in-Containerized-JVM/assets/11364104/73b291d8-95e5-49a9-82b0-54ee197334ba)
+
 If you find yourself grappling with a memory leak issue in your containerized Java Virtual Machine (JVM), it's essential to take strategic steps to pinpoint and address the problem. Here's a systematic approach to help you identify and resolve memory leaks:
 
 
 #### 1. Utilize JDK Over JRE:
 Ensure you are using the Java Development Kit (JDK) rather than the Java Runtime Environment (JRE). JDK provides essential development tools such as compilers and debuggers, which are crucial for capturing heap dumps.
 
-![image](https://github.com/mjameer/MemoryLeaks-in-Containerized-JVM/assets/11364104/e5479f90-e70b-49e6-91b5-15206aeab54e)
+![image](https://github.com/mjameer/MemoryLeaks-in-Containerized-JVM/assets/11364104/105f3f32-62f3-424b-b0d6-7964110e3648)
 
 [Learn more about the differences between JDK and JRE](https://www.geeksforgeeks.org/difference-between-jdk-and-jre-in-java/)
 
