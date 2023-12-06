@@ -6,15 +6,20 @@ If you find yourself grappling with a memory leak issue in your containerized Ja
 #### 1. Utilize JDK Over JRE:
 Ensure you are using the Java Development Kit (JDK) rather than the Java Runtime Environment (JRE). JDK provides essential development tools such as compilers and debuggers, which are crucial for capturing heap dumps.
 
-Learn more about the differences between JDK and JRE
+![image](https://github.com/mjameer/MemoryLeaks-in-Containerized-JVM/assets/11364104/e5479f90-e70b-49e6-91b5-15206aeab54e)
+
+[Learn more about the differences between JDK and JRE](https://www.geeksforgeeks.org/difference-between-jdk-and-jre-in-java/)
 
 #### 2. Periodically Capture Heap Dumps:
+
 Capture heap dumps at regular intervals, preventing the application from exceeding memory limits and triggering restarts. This proactive approach allows you to analyze memory usage patterns over time.
 
 #### 3. Analyze Heap Dumps:
+
 Examine the instance counts and monitor elements with continuous increases between heap dumps.
 
 #### 4. Investigate Problematic Code:
+
 Delve into the code associated with the increasing instances of specific classes. This investigation helps pinpoint where and how these classes are being utilized, aiding in the identification of potential memory leak sources.
 
 #### 5. Visulaize Data
