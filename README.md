@@ -6,7 +6,7 @@ If you find yourself grappling with a memory leak issue in your containerized Ja
 
 
 #### 1. Utilize JDK Over JRE:
-Ensure you are using the Java Development Kit (JDK) rather than the Java Runtime Environment (JRE). JDK provides essential development tools such as compilers and debuggers, which are crucial for capturing heap dumps.
+Ensure you are using the images that have Java Development Kit (JDK) rather than running apps in images that have Java Runtime Environment (JRE). JDK provides essential development tools such as compilers and debuggers, which are crucial for capturing heap dumps.
 
 ![image](https://github.com/mjameer/MemoryLeaks-in-Containerized-JVM/assets/11364104/105f3f32-62f3-424b-b0d6-7964110e3648)
 
